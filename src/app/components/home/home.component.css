@@ -94,6 +94,7 @@ body {
     transition: transform 0.3s ease;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .left-side {
@@ -127,6 +128,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .card-details {
