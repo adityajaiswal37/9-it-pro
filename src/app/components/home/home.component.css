@@ -143,9 +143,9 @@ body {
 }
 
 .card-title, .big-card-title {
-    font-weight: bold;
+    font-weight: 700;
     margin-top: 10px;
-    font-size: 23px;
+    font-size: 21px;
     color: #2298ec;
 }
 
