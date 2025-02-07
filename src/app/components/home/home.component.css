@@ -83,7 +83,7 @@ body {
     border: 0;
     color: #ffffff;
     border-radius: 0;
-    background: #2298ec;
+    background: gray;
     transition: all 0.5s ease 0s;
     width: 110px;
     padding: 10px;
@@ -113,16 +113,17 @@ body {
 }
 
 .card-title, .big-card-title {
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 10px;
     font-size: 21px;
-    color: #2298ec;
+    color: gray;
 }
 
 .para, .big-card-para {
+    font-weight: 500;
     margin-top: 10px;
     font-size: 15px;
-    color: #555;
+    color: #000;
     text-align: justify;
 }
 

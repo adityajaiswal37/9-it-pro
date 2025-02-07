@@ -33,7 +33,7 @@
     box-shadow: rgba(0,0,0,.2) 0px 1px 5px;
 }
 .home-link{
-    color: #2298ec;
+    color: gray;
     cursor: pointer;
     transition: all 0.2s ease 0s;
     font-weight: 400;
