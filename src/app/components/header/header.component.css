@@ -1,72 +1,96 @@
-/* Header Styling */
 .header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    right: 0;
     height: 60px;
-    background-color: #222222;
-    /* Dark background */
+    background-color: #222;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 40px;
     z-index: 1000;
-}
+  }
+  .header-2{
+    display: none;
+  }
 
-/* Logo Styling */
-.logo {
+  .logo {
     font-size: 1.5rem;
     font-weight: bold;
-}
+  }
 
-/* Navigation Styling */
-nav {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
 
-nav ul {
+  nav ul {
     list-style: none;
     display: flex;
     gap: 40px;
-    /* Equal spacing between links */
     margin: 0;
     padding: 0;
-}
+  }
 
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
+  nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 14px;
     padding: 10px;
-    transition: 0.3s;
     font-weight: 600;
     text-transform: uppercase;
-}
+    transition: 0.3s;
+  }
 
-nav ul li a:hover {
+  nav ul li a:hover {
     background-color: #444;
     border-radius: 5px;
-}
+  }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        height: auto;
-        padding: 10px;
+  @media (max-width: 770px) {
+    .menu-toggle {
+      display: block;
+    }
+    .header{
+        display: none;
+    }
+    .header-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        
+        padding: 0 40px;
+        z-index: 1000;
+        height: 60px;
+    }
+    .header-2{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #222;
+        position: relative;
     }
 
     nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px
+      display: none;
+      flex-direction: column;
+      top: 60px;
+      right: 0;
+      background-color: #222;
+      width: 200px;
+      padding: 15px 30px;
     }
-}
+
+    nav ul.show {
+      display: flex;
+    }
+  }

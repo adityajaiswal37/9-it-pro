@@ -93,7 +93,10 @@
         padding: 0 10%;
     }
 }
-@media (max-width: 760px) {
+@media (max-width: 770px) {
+    .main{
+        margin-top: 0;
+    }
     .sub-main{
         margin: 20px 1%;
     }

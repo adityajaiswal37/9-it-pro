@@ -80,7 +80,7 @@ body {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .footer {
         padding: 5% 10%;
     }

@@ -203,7 +203,10 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
+    .home-container{
+        margin-top: 0;
+    }
     .banner-heading {
         font-size: 35px;
     }
