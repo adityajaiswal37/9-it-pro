@@ -61,7 +61,7 @@
     color: #bf2718;
 }
 .para{
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 400;
 }
 .thumbnail{
@@ -70,12 +70,12 @@
 }
 .sub-1{
     display: flex;
-    gap: 15px;
+    gap: 30px;
 }
 .sub-2{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 @media (max-width: 1200px) {

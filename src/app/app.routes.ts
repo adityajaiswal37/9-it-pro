@@ -17,7 +17,7 @@ export const routes: Routes = [
     { path: 'industries', component: IndustriesComponent },
     { path: 'it-services', component: ItServicesComponent },
     { path: 'lightweight-industry', component: LightweightIndustryComponent },
-    { path: 'employer-recruitment-process', component: EmployerRecruitmentProcessComponent },
+    { path: 'employee-recruitment-process', component: EmployerRecruitmentProcessComponent },
 ];
 
 @NgModule({
