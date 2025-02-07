@@ -63,6 +63,7 @@
 .para{
     font-size: 17px;
     font-weight: 400;
+    text-align: justify;
 }
 .thumbnail{
     object-fit: cover;
