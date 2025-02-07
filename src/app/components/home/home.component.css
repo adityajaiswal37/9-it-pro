@@ -16,7 +16,6 @@ body {
 .banner-img {
     width: 100%;
     object-fit: cover;
-    height: 225px;
 }
 
 .banner-text {

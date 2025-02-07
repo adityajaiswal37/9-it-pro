@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     height: 60px;
-    background-color: #222;
+    background-color: #000;
     color: white;
     display: flex;
     align-items: center;
@@ -16,9 +16,9 @@
     display: none;
   }
 
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+  .logo{
+    display: flex;
+    height: 100%;
     cursor: pointer;
   }
 
