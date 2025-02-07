@@ -1,0 +1,41 @@
+<form [formGroup]="contactForm" (ngSubmit)="submitForm()">
+    <label for="firstName">First Name*</label>
+    <input id="firstName" type="text" formControlName="firstName">
+    <div *ngIf="contactForm.controls['firstName'].touched && contactForm.controls['firstName'].invalid">
+      Please enter your first name.
+    </div>
+  
+    <label for="lastName">Last Name</label>
+    <input id="lastName" type="text" formControlName="lastName">
+  
+    <label for="email">E-mail*</label>
+    <input id="email" type="email" formControlName="email">
+    <div *ngIf="contactForm.controls['email'].touched && contactForm.controls['email'].invalid">
+      Provide a valid email address.
+    </div>
+  
+    <label for="inquiryType">Inquiry Type*</label>
+    <select id="inquiryType" formControlName="inquiryType">
+      <option value="">Select</option>
+      <option value="HR">HR</option>
+      <option value="Sales">Sales</option>
+      <option value="Know About Service">Know About Service</option>
+      <option value="Immigration">Immigration</option>
+      <option value="Help Me Find a Job">Help Me Find a Job</option>
+    </select>
+    <div *ngIf="contactForm.controls['inquiryType'].touched && contactForm.controls['inquiryType'].invalid">
+      Please select an inquiry type.
+    </div>
+  
+    <label for="contactNumber">Contact Number</label>
+    <input id="contactNumber" type="text" formControlName="contactNumber">
+  
+    <label for="helpDescription">What Can We Help With?*</label>
+    <textarea id="helpDescription" formControlName="helpDescription"></textarea>
+    <div *ngIf="contactForm.controls['helpDescription'].touched && contactForm.controls['helpDescription'].invalid">
+      Please describe your request.
+    </div>
+  
+    <button type="submit" [disabled]="contactForm.invalid">Submit</button>
+  </form>
+  

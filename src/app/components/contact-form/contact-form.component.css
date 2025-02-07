@@ -1,0 +1,60 @@
+/* General Form Styles */
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  /* Label Styling */
+  label {
+    color: #333;
+    font-size: 14px;
+  }
+  
+  /* Input & Textarea Styling */
+  input, select, textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    border-color: #6c63ff; /* Soft pastel blue */
+    outline: none;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+  }
+  
+  /* Error Message Styling */
+  div[ngIf] {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  
+  /* Button Styling */
+  button {
+    background: #6c63ff; /* Soft pastel blue */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background: #5752d1;
+  }
+  

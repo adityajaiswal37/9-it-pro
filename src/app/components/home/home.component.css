@@ -41,37 +41,6 @@ body {
     color: white;
 }
 
-.mid-section {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    justify-content: center;
-    align-items: center;
-    background: #2298ec;
-    height: 60px;
-    padding: 10px;
-}
-
-.icon {
-    width: 20px;
-    height: 20px;
-}
-
-.container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 2px 0 0 rgba(0, 0, 0, 0.06);
-    height: 100%;
-    cursor: pointer;
-}
-
-.label {
-    font-size: 14px;
-    font-weight: 500;
-    color: white;
-}
-
 .main-card-container {
     display: flex;
     flex-direction: column;
