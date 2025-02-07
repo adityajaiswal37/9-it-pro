@@ -1,0 +1,146 @@
+.main{
+    margin-top: 60px;
+}
+.heading-container{
+    height: 175px;
+    position: relative;
+}
+.heading-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.heading{
+    position: absolute;
+    left: 20%;
+    bottom: 20px;
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    background: rgb(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+.breadcrum{
+    width: 100%;
+    background: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    padding: 0 20%;
+    height: 50px;
+    align-items: center;
+    box-shadow: rgba(0,0,0,.2) 0px 1px 5px;
+}
+.home-link{
+    color: #2298ec;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    font-weight: 400;
+}
+.home-link:hover{
+    color: #000;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    flex-direction: column;
+}
+.sitemap {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.node {
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+}
+.node:hover {
+    background-color: #2980b9;
+}
+.sub-node {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+.sub-node::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 2px;
+    height: 10px;
+    background-color: #333;
+}
+.connector {
+    width: 2px;
+    height: 20px;
+    background-color: #333;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.horizontal-connector {
+    height: 2px;
+    width: 80%;
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+
+.sub-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(0,0,0,.2) 0px 1px 5px;
+    padding: 20px;
+    margin: 20px 20%;
+}
+
+@media (max-width: 1200px) {
+    .heading{
+        left: 10%;
+    }
+    .breadcrum{
+        padding: 0 10%;
+    }
+}
+@media (max-width: 770px) {
+    .main{
+        margin-top: 0;
+    }
+    .sub-main{
+        margin: 20px 1%;
+    }
+    .heading{
+        left: 5%;
+    }
+    .breadcrum{
+        padding: 0 5%;
+    }
+}
+@media (max-width: 600px) {
+    .sub-node {
+        flex-direction: column;
+    }
+    .horizontal-connector {
+        display: none;
+    }
+}

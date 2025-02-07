@@ -8,6 +8,7 @@ import { IndustriesComponent } from './components/industries/industries.componen
 import { LightweightIndustryComponent } from './components/lightweight-industry/lightweight-industry.component';
 import { EmployerRecruitmentProcessComponent } from './components/employer-recruitment-process/employer-recruitment-process.component';
 import { ItServicesComponent } from './components/it-services/it-services.component';
+import { SitemapComponent } from './components/sitemap/sitemap.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -18,6 +19,7 @@ export const routes: Routes = [
     { path: 'it-services', component: ItServicesComponent },
     { path: 'lightweight-industry', component: LightweightIndustryComponent },
     { path: 'employee-recruitment-process', component: EmployerRecruitmentProcessComponent },
+    { path: 'sitemap', component: SitemapComponent }
 ];
 
 @NgModule({
