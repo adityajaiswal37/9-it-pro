@@ -39,7 +39,7 @@
     font-weight: 400;
 }
 .home-link:hover{
-    color: #bf2718;
+    color: #000;
 }
 
 .sub-main{
@@ -58,7 +58,7 @@
 .sub-heading{
     font-size: 30px;
     font-weight: 700;
-    color: #bf2718;
+    color: #000;
 }
 .para{
     font-size: 18px;
@@ -71,6 +71,7 @@
 .sub-1{
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 .sub-2{
     display: flex;

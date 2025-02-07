@@ -40,7 +40,7 @@
     font-weight: 400;
 }
 .home-link:hover{
-    color: #bf2718;
+    color: #000;
 }
 
 @media (max-width: 1200px) {

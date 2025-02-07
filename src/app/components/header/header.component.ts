@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -10,8 +10,16 @@ import { RouterLink } from '@angular/router';
 })
 export class HeaderComponent {
   isMenuOpen = false;
+
+  constructor(private router: Router) {}
+  
     
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
+  }
+  
+  navigateTo(path:any){
+    this.isMenuOpen = false;
+    this.router.navigate([path]); 
   }
 }

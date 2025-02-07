@@ -1,29 +1,28 @@
 <header class="header">
-  <div class="logo" routerLink="/">9ITPro</div>
+  <div class="logo" (click)="navigateTo('/')">9ITPro</div>
   <nav>
     <ul id="nav-links">
-      <li><a routerLink="/">Home</a></li>
-      <li><a routerLink="/about-us">About Us</a></li>
-      <li><a routerLink="/industries">Industries</a></li>
-      <li><a routerLink="/career">Career</a></li>
-      <li><a routerLink="/contact-us">Contact Us</a></li>
+      <li><a (click)="navigateTo('/')">Home</a></li>
+      <li><a (click)="navigateTo('/about-us')">About Us</a></li>
+      <li><a (click)="navigateTo('/industries')">Industries</a></li>
+      <li><a (click)="navigateTo('/career')">Career</a></li>
+      <li><a (click)="navigateTo('/contact-us')">Contact Us</a></li>
     </ul>
   </nav>
 </header>
 
-
 <header class="header-2">
   <div class="header-top">
-    <div class="logo" routerLink="/">9ITPro</div>
+    <div class="logo" (click)="navigateTo('/')">9ITPro</div>
     <button class="menu-toggle" (click)="toggleMenu()">&#9776;</button>
   </div>
   <nav>
     <ul [ngClass]="{ 'show': isMenuOpen }" id="nav-links">
-      <li><a routerLink="/">Home</a></li>
-      <li><a routerLink="/about-us">About Us</a></li>
-      <li><a routerLink="/industries">Industries</a></li>
-      <li><a routerLink="/career">Career</a></li>
-      <li><a routerLink="/contact-us">Contact Us</a></li>
+      <li><a (click)="navigateTo('/')">Home</a></li>
+      <li><a (click)="navigateTo('/about-us')">About Us</a></li>
+      <li><a (click)="navigateTo('/industries')">Industries</a></li>
+      <li><a (click)="navigateTo('/career')">Career</a></li>
+      <li><a (click)="navigateTo('/contact-us')">Contact Us</a></li>
     </ul>
   </nav>
 </header>
