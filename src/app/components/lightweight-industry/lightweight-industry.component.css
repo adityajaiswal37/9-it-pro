@@ -79,6 +79,16 @@
     gap: 10px;
 }
 
+.para-list {
+    padding-left: 20px;
+}
+
+.para-list li {
+    margin-bottom: 8px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
 @media (max-width: 1200px) {
     .sub-1{
         flex-direction: column;
