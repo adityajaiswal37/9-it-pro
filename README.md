@@ -1,59 +1,68 @@
-# 9ItPro
+# 9ITPro - Official Website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
+9ITPro is a modern, fully responsive website built with Angular, designed to showcase IT solutions, services, and industry expertise. It provides an interactive and user-friendly experience for visitors looking for IT services, consulting, and technology solutions.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- **Dynamic Content**: Fully customizable sections for services, portfolio, and testimonials.
+- **User Authentication**: Secure login and registration (if applicable).
+- **Service Listings**: Detailed descriptions of available IT solutions.
+- **Blog & News**: Regular updates on industry trends and company news.
+- **Contact Form**: Easy-to-use form for inquiries and support.
+- **SEO Optimized**: Implemented best practices for search engine visibility.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop devices.
 
-```bash
-ng serve
+## Tech Stack
+
+- **Frontend**: Angular, TypeScript
+- **State Management**: NgRx (if applicable)
+- **Styling**: SCSS, Bootstrap/Tailwind CSS
+- **Backend**: Node.js, Express.js (if applicable)
+- **Database**: MongoDB / Firebase (if applicable)
+
+## Installation & Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/9ITPro.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd 9ITPro
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Run the application:
+   ```sh
+   ng serve
+   ```
+
+## Environment Variables
+
+Create a `.env` file in the root directory and add the following:
+```
+API_URL=your_backend_api_url
+FIREBASE_API_KEY=your_firebase_api_key (if applicable)
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Deployment
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+For production build:
+```sh
+ng build --prod
 ```
+Deploy the generated `dist/` folder to your preferred hosting service.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Contributing
 
-```bash
-ng generate --help
-```
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-## Building
+## License
 
-To build the project run:
+This project is licensed under the MIT License.
 
-```bash
-ng build
-```
+## Contact
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+For any inquiries or feedback, reach out to **Aditya Jaiswal** at adijaiswal0011@gmail.com or connect via LinkedIn.
