@@ -1,6 +1,6 @@
 # 9ITPro - Official Website
 
-9ITPro is a modern, fully responsive website built with Angular, designed to showcase IT solutions, services, and industry expertise. It provides an interactive and user-friendly experience for visitors looking for IT services, consulting, and technology solutions.
+9ITPro is a modern, fully responsive website built with Angular, designed to showcase IT solutions, services, and industry expertise. It provides an interactive and user-friendly experience for visitors looking for IT services, consulting, and technology solutions. 
 
 ## Features
 
